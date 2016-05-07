@@ -1,0 +1,59 @@
+/*
+Name:       ice-melon
+Author:     adapted from: Simurai 
+(https://github.com/simurai/duotone-dark-syntax/)
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), 
+adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.CodeMirror, .CodeMirror-scroll { background-color: #1e2138; color: 
+#ffffff; }
+
+.CodeMirror-selected,.CodeMirror-selectedtext { background: #5762C7 !important; color:#FFEB00 !important; }
+
+.CodeMirror-gutters { background: #1e2138; 
+border-right: 0px; }
+.CodeMirror-linenumber { color: #44486f; }
+
+/* Cursor - some of these styles need to be removed: hardcoded these 
+into the base16-builder template because base16 does not support alpha 
+channels */
+
+
+/* IceMelon */
+.CodeMirror-cursor { border-left: 1px solid 
+hsla(343, 100%, 66%, 0.5); border-right: .5em solid hsla(343, 100%, 
+66%, .5); }
+
+.cm-fat-cursor .CodeMirror-cursor { 
+background: hsla(343, 100%, 66%, 0.5); }
+
+/* end cursor */
+
+.cm-atom, .cm-number, .cm-keyword, 
+.cm-variable, .cm-attribute, .cm-quote, .cm-hr, .cm-link { color: #ffa8c1; }
+
+.cm-property { color: #6771c5; }
+.cm-punctuation, .cm-unit, .cm-negative { color: #ed5e87; }
+.cm-string { color: #f990ad; }
+.cm-operator { color: #f4769a; }
+.cm-positive { color: #2d3dd2; }
+
+.cm-variable-2, .cm-variable-3, .cm-string-2, .cm-url { color: #2d3dd2; }
+.cm-def,.cm-tag, .cm-builtin, .cm-qualifier, .cm-header, .cm-em { color: #e1e4ff; }
+.cm-bracket { color: #a5adfe;/*#E1E4FF;*/ }
+.cm-comment { color: #ff557b; }
+/* using #f00 red for errors, don't think any of the colorscheme 
+variables will stand out enough, ... maybe by giving it a 
+background-color ... */
+.cm-error, .cm-invalidchar { background-color: #733380; 
+color: #ffa8c1; } 
+
+.cm-header { font-weight: normal; }
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag { text-decoration: none; color:#FFEB00; background-color: #733380 !important; }
+
+.cm-matchhighlight, .CodeMirror-searching, { background-color: #733380 !important; color:#FFEB00;}
+
+

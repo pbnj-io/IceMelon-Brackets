@@ -1,0 +1,15 @@
+{
+    "name": "ice-melon",
+    "title": "Ice Melon",
+    "description": "Ice Melon Dark Theme",
+    "homepage": "https://i.imgsafe.org/b8d6bbf.png",
+    "version": "1.0.2",
+    "author": "pbnj-io",
+    "license": "CC",
+    "theme": {
+        "file": "icemelon.css",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme, dark, ice, melon"]
+}
